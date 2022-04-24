@@ -3,15 +3,11 @@
 
 ```mermaid
 flowchart LR
-    
-    A{자료구조} --> B(단순구조) 
-              --> B(선형구조)
-              --> B(비선형구조)
-              --> B (파일구조) 
+    A[Hard edge] -->|Link text| B(Round edge)
+    B --> C{자료구조}
+    C -->(단순 구조) D[Result one]
+                   D[문자열]
+    C -->(선형 구조) E[Result two]
 ```
 
-flowchart LR
-    A[Hard edge] -->|Link text| B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
+
