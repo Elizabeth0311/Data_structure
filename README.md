@@ -3,6 +3,6 @@
 
 ```mermaid
 graph LR
-A{자료구조} -->B(Round edge)
-          -->B(Round edge)
+A{자료구조} --B(Round edge)
+          --B(Round edge)
 ```
