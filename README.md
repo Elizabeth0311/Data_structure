@@ -4,7 +4,7 @@
 ```mermaid
 flowchart LR
     
-    A{자료구조} --> B(단순구조) 
+    A{자료구조} -- B(단순구조) 
    
 ```
 
