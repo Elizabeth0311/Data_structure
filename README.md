@@ -4,8 +4,10 @@
 ```mermaid
 flowchart LR
     
-    A{자료구조} -- B(단순구조) 
-   
+    A{자료구조} --> B(단순구조) 
+    B -->(선형구조)
+    B -->(비선형구조)
+    B -->(파일구조) 
 ```
 
 flowchart LR
