@@ -2,7 +2,9 @@
 
 
 ```mermaid
-graph LR
-A{자료구조} -->B(Round edge)
-          -->C(Round edge)
+flowchart LR
+    
+    C{자료구조}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
 ```
